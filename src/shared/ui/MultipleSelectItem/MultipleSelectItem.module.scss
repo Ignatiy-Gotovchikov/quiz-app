@@ -1,0 +1,44 @@
+@import '../../../app/styles/variables/global.scss';
+
+.multipleSelectItem {
+  background-color: #2a2a3e;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s, border 0.3s;
+  border: 2px solid transparent;
+
+  &:hover {
+    border: 2px solid var(--light-pink);
+  }
+}
+
+.selected {
+  border: 2px solid var(--light-pink);
+}
+
+.label {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a3a5e;
+  border-radius: 50%;
+}
+
+.checked {
+  background-color: var(--light-pink);
+  color: white;
+}

@@ -1,0 +1,49 @@
+@import '../../../app/styles/variables/global.scss';
+
+.resultsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.checkmark {
+  margin: 20px 0;
+  width: 100px;
+  height: 100px;
+}
+
+.downloadButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--light-pink);
+  border: 2px solid green;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--dark-pink)
+  }
+}
+
+.retakeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--light-pink);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--dark-pink)
+  }
+}

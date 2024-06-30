@@ -1,0 +1,42 @@
+@import '../../../app/styles/variables/global.scss';
+
+.progressBarContainer {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+
+  @media (max-width: 600px) {
+    margin-bottom: 15px;
+  }
+}
+
+.questionCounter {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+
+.currentQuestion {
+  color: var(--light-pink);
+}
+
+.progressBar {
+  width: 100%;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 10px;
+  background-color: var(--light-pink);
+
+  @media (max-width: 600px) {
+    height: 8px;
+  }
+}

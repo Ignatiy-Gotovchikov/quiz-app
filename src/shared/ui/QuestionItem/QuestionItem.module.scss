@@ -1,0 +1,16 @@
+@import '../../../app/styles/variables/global.scss';
+
+.questionItem {
+  background-color: #2a2a3e;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, border 0.3s;
+
+  &:hover {
+    border: 2px solid var(--light-pink);
+    background-color: var(--dark-pink);
+  }
+}

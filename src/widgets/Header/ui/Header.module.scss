@@ -1,0 +1,29 @@
+@import '../../../app/styles/variables/global.scss';
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (max-width: 600px) {
+    align-items: flex-start;
+  }
+}
+
+.backButton {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--light-pink);
+  }
+}

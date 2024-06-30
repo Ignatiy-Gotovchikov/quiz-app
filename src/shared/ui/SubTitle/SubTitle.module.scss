@@ -1,0 +1,12 @@
+@import '../../../app/styles/variables/global.scss';
+
+.subtitle {
+  font-size: 18px;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.highlight {
+  color: var(--light-pink);
+}

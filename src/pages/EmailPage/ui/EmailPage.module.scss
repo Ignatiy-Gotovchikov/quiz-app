@@ -1,0 +1,19 @@
+.emailPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.agreementText {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.nextButton {
+  margin-top: 20px;
+}
